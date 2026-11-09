@@ -6,7 +6,6 @@
 # 1 1
 # 1 0
 
-
 def is_variable(char):
     if (char == "(" or char == ")" or char == "*" or char == "+" or char == "!" or char == " "):
         return False
@@ -23,7 +22,6 @@ for char_index in range(0, len(input_string)):
     # print("isVariable = " + str(is_variable(expr[i])))
     if (is_variable(input_string[char_index])):
         variable_set.add(input_string[char_index])
-
 
 # sort the set
 variable_set = sorted(variable_set)
@@ -74,8 +72,3 @@ for row_index in range(total_rows):
 print("The final matrix: ")
 for row in arr:
     print(row)
-
-
-
-
-
