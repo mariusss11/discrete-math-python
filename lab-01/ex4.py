@@ -53,6 +53,9 @@ for char_index in range(variable_count):
 # prepare the expresion for evaluation
 expr = input_string.replace("!", " not ").replace("*", " and ").replace("+", " or ")
 
+for row in arr:
+    print(row)
+
 
 # https://www.geeksforgeeks.org/python/how-to-create-a-dictionary-in-python/
 def get_dict_for_row(arr):
